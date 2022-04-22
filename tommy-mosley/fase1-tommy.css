@@ -1,74 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Archivo:wght@100;200;400&family=Comfortaa:wght@500;700&family=Grape+Nuts&family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Ultra&display=swap');
+
+
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    background: url(../Projeto-final--Jogo-Resiliatown/mídias/background-papel-de-madeira.jpg);
-    
+    background-image: url(../mídias/background-papel-de-madeira.jpg);
 }
 
-.menu-principal{
+.descricao-fase-1{
     background:#d3cc67f3;
-    width:75vw;
-    height: 35vw;
+    width:65vw;
+    height: 25vw;
     margin: 5vw auto;
     border: 0.3vw solid #d3cc67f3;
     border-radius: 0.6vw ;
     box-shadow: 0.3vw #800000 #d3cc67f3;
-    
 }
 
-.menu-principal h1{
-    color:#800000;
+.descricao-fase-1 h1{
+    color: #800000;
     padding: 1vw;
     font-weight: bolder;
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    font-size: 5vw;
-   
+    font-size: 4vw;
    
 }
 
-.menu-principal p{
+.descricao-fase-1 p{
     color:#800000;
-    padding: 1.3vw;
+    padding: 1.7vw;
     word-spacing: 0.5vw;
     text-align: center;
     font-family:'Archivo', sans-serif;
     font-size: 1.5vw;
 }
 
-.botao-iniciar{
-    background-color: #800000;
-    text-transform: uppercase;
+.botao{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.botao-jogar{
+    background-color:#800000 ;
+    color:#d3cc67f3;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5vw;
-    position: relative;
-    margin-top: 4vw;
-    margin-left: 27vw;
     width: 17vw;
     height: 3vw;
-  
-}
+    margin-right: 3vw;
+    
+} 
 
-.botao-iniciar a{
+.botao-jogar a{
     text-decoration: none;
-    color: #FFDEAD;
-}
-
-.botao-iniciar:hover{
-    background-color: #ffdead7c;
-    border: 0.2vw solid #800000;
-    color: #800000;
-    
-    
-}
-
-.botao-iniciar a:hover{
-    text-decoration: none;
-    color: #800000;
-    
+    color: #d3cc67f3;
 }
