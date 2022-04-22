@@ -1,66 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Archivo:wght@100;200;400&family=Comfortaa:wght@500;700&family=Grape+Nuts&family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Ultra&display=swap');
 
-
 *{
-    margin:0;
-    padding: 0;
+    margin: 0;
+    border: 0;
     box-sizing: border-box;
 }
-
 body{
-    background-image: url(../mídias/background-papel-de-madeira.jpg);
+    background: url(../mídias/background-game-over.jpg);
 }
 
-.descricao-fase-1{
-    background:#d3cc67f3;
+
+.descricao-game-over{
     width:65vw;
     height: 25vw;
-    margin: 5vw auto;
-    border: 0.3vw solid #d3cc67f3;
+    margin: 8vw auto;
+    border: 0.3vw solid #8b451371;
     border-radius: 0.6vw ;
-    box-shadow: 0.3vw #800000 #d3cc67f3;
+    background-color: 	#d6cb3157;
 }
 
-.descricao-fase-1 h1{
-    color: #800000;
+
+.descricao-game-over h1{
+    color:	#800000;
     padding: 1vw;
     font-weight: bolder;
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 4vw;
+    text-shadow:0.1em 0.1em 0.2em #FFFFFF ;
    
 }
 
-.descricao-fase-1 p{
+.descricao-game-over p{
     color:#800000;
     padding: 1.7vw;
     word-spacing: 0.5vw;
     text-align: center;
     font-family:'Archivo', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2vw;
+    text-shadow:0.1em 0.1em 0.2em #FFFFFF ;
 }
 
 .botao{
-    margin-top: 7vw;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    
 }
 
-
-
-.botao-jogar{
-    background-color:#800000 ;
-    color:#d3cc67f3;
+.jogar-com-outro-personagem{
+    background-color:#c5bd48f3 ;
+    color:#800000;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5vw;
-    width: 17vw;
-    height: 3vw;
+    width: 23vw;
+    height: 4vw;
     margin-right: 3vw;
     
-} 
-
-.botao-jogar a{
-    text-decoration: none;
-    color: #d3cc67f3;
 }
+

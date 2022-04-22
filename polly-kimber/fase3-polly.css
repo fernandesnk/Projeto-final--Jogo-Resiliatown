@@ -11,7 +11,7 @@ body{
     background-image: url(../mídias/background-papel-de-madeira.jpg);
 }
 
-.descricao-fase-1{
+.descricao-fase-3{
     background:#d3cc67f3;
     width:65vw;
     height: 25vw;
@@ -21,7 +21,7 @@ body{
     box-shadow: 0.3vw #800000 #d3cc67f3;
 }
 
-.descricao-fase-1 h1{
+.descricao-fase-3 h1{
     color: #800000;
     padding: 1vw;
     font-weight: bolder;
@@ -31,7 +31,7 @@ body{
    
 }
 
-.descricao-fase-1 p{
+.descricao-fase-3 p{
     color:#800000;
     padding: 1.7vw;
     word-spacing: 0.5vw;
@@ -47,8 +47,6 @@ body{
     
 }
 
-
-
 .botao-jogar{
     background-color:#800000 ;
     color:#d3cc67f3;
@@ -58,7 +56,8 @@ body{
     height: 3vw;
     margin-right: 3vw;
     
-} 
+}
+   
 
 .botao-jogar a{
     text-decoration: none;
