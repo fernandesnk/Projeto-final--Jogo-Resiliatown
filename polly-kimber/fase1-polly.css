@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Archivo:wght@100;200;400&family=Comfortaa:wght@500;700&family=Grape+Nuts&family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/2076791-textura-de-madeira-rustica-gr%C3%A1tis-foto.jpg);
+}
+
+.menu-principal{
+    background:#d3cc67f3;
+}
+
+.menu-principal h1{
+    color:#800000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-principal p{
+    color:#800000;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.botoes{
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.botao-voltar{
+    background-color:#800000 ;
+    color:#d3cc67f3 ;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5vw;
+    width: 17vw;
+    height: 3vw;
+    margin-left: 3vw;
+}
+
+.botao-voltar a{
+    text-decoration: none;
+    color: #d3cc67f3;
+}
+
+.botao-jogar{
+    background-color:#800000 ;
+    color:#d3cc67f3;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5vw;
+    width: 17vw;
+    height: 3vw;
+    margin-right: 3vw;
+    
+}
+   
+
+.botao-jogar a{
+    text-decoration: none;
+    color: #d3cc67f3;
+}
+

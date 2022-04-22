@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Archivo:wght@100;200;400&family=Comfortaa:wght@500;700&family=Grape+Nuts&family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Ultra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://static.vecteezy.com/ti/fotos-gratis/p2/2076791-textura-de-madeira-rustica-gr%C3%A1tis-foto.);
+}
+
+h1{
+    background:#c5bd48f3;
+    color:#800000;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Roboto Slab', serif;
+    padding: 1vw;
+    margin: 1vw 15vw 1vw 15vw;
+
+}
+
+.lista-dos-personagens{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-da-lista-personagens{
+    background:#c5bd48f3;
+    padding: 1vw;
+    margin: 2vw;
+}
+
+.item-da-lista-personagens a {
+    text-decoration: none;
+}
+
+.imagem-da-polly{
+    width:17vw;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem-do-clint{
+    width: 20vw;
+    height: 30vw;
+}
+
+.imagem-do-tommy{
+    width:17vw;
+}
+
+.nome-do-personagem{
+    color:#800000;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+
+.item-da-lista-personagens:hover{
+    background:#C0C0C0;
+    
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Archivo:wght@100;200;400&family=Comfortaa:wght@500;700&family=Grape+Nuts&family=Oswald:wght@200&family=Roboto+Slab:wght@500&family=Ultra&display=swap');
+
+*{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://static.vecteezy.com/ti/fotos-gratis/p2/2076791-textura-de-madeira-rustica-gr%C3%A1tis-foto.jpg);
+}
+
+.menu-principal{
+    background: #d3cc67f3;;
+}
+
+.menu-principal h1{
+    color:#800000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menu-principal p{
+    color:#800000;
+    font-family: 'Roboto Slab', serif;
+}
